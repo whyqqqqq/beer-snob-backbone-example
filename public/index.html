@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beer List for Beer Snobs</title>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css"
+        media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css"
+        media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/master.css" type="text/css"
+        media="screen" title="no title" charset="utf-8">
+  <script data-main="js/main" src="js/libs/require.js"></script>
+
+</head>
+<body class="col-xs-12">
+
+  <div class="page-header">
+    <h1>The Great Beer List</h1>
+    <h3>For Beer Snobs</h3>
+  </div>
+
+  <div class="panel panel-info" id="beer-list-page">
+    <div class="panel-heading">
+      <h4 class="panel-title">Add A Beer and its Info</h4>
+    </div>
+
+    <div class="form-horizontal beer-form">
+      <div class="form-group row">
+        <label class="col-xs-2 col-xs-offset-1" for="input-beer">Name</label>
+        <input class="col-xs-6 col-xs-offset-1" type="text" id="input-beer"
+                name="input-beer">
+      </div>
+
+      <div class="form-group row">
+        <label class="col-xs-2 col-xs-offset-1" for="input-beer-company">Company</label>
+        <input class="col-xs-6 col-xs-offset-1" type="text" id="input-beer-company"
+                name="input-beer-company">
+      </div>
+
+      <div class="form-group row">
+        <label class="col-xs-2 col-xs-offset-1" for="input-beer-style">Style</label>
+        <input class="col-xs-6 col-xs-offset-1" type="text" id="input-beer-style"
+                name="input-beer-style">
+      </div>
+      <div class="form-group col-xs-6">
+        <button class="btn btn-warning" id="submit-beer">Beer Me</button>
+      </div>
+    </div>
+
+    <section class="panel panel-info col-xs-12">
+      <div class="panel-heading row">
+        <h4 class="panel-title col-xs-12">Beer List</h4>
+      </div>
+      <ul class="row" id="beer-list">
+        <!--BEER LIST HERE!!!-->
+      </ul>
+    </section>
+
+  </div>
+
+</body>
+</html>

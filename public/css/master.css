@@ -1,0 +1,33 @@
+.form-group{
+  margin: 5px;
+  margin-left: 0;
+}
+
+button.btn{
+  margin: 0 0 20px 0;
+}
+
+.list-group-item{
+  margin: 5px;
+}
+
+.page-header{
+  position: relative;
+  height: 250px;
+  width: 100%;
+  display: block;
+
+}
+
+.page-header::after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  content: '';
+  background-image: url(../media/beer-drinking.png);
+  background-repeat: no-repeat;
+  opacity: .4;
+}
